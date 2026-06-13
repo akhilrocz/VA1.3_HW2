@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.flexBox textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.flexBox button {
+  width: 100%;
+  padding: 8px;
+}
